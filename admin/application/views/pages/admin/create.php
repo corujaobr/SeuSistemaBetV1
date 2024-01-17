@@ -17,11 +17,11 @@
                     </div>
                     <div class="form-group">
                         <label>Senha:</label>
-                        <input type="password" name="password" class="form-control" required>
+                        <input type="password" name="senha" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Nome:</label>
-                        <input type="text" name="name" class="form-control" required>
+                        <input type="text" name="nome" class="form-control" required>
                     </div>
                   
                     <button type="submit" class="btn btn-primary btn-block mt-3">Criar</button>

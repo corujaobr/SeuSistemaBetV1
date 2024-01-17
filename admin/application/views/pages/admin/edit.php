@@ -17,7 +17,7 @@
                     </div>
                     <div class="form-group">
                         <label>Nome:</label>
-                        <input type="text" name="name" class="form-control" value="<?php echo $admins->nome; ?>" required>
+                        <input type="text" name="nome" class="form-control" value="<?php echo $admins->nome; ?>" required>
                     </div>
                     <div class="form-group">
                         <label>IP:</label>

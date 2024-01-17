@@ -15,7 +15,7 @@
       <form method="post" action="<?php echo site_url('Fiverscan/save'); ?>">
             <div class="mb-3">
                 <label for="url" class="form-label">URL</label>
-                <input type="text" class="form-control" id="url" name="url" value="<?php echo $config[0]->url ?>">
+                <input type="text" class="form-control" id="url" name="url" value="https://games2api.xyz/" readonly>
             </div>
             <div class="mb-3">
                 <label for="client_id" class="form-label">Agent Code</label>
