@@ -1,0 +1,83 @@
+body::-webkit-scrollbar, body ::-webkit-scrollbar {
+     width: 6px;
+}
+ body::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-thumb {
+     background-color: rgba(163,180,190,.1);
+     border-radius: 10px;
+}
+ body::-webkit-scrollbar-track, body ::-webkit-scrollbar-track {
+     background: inherit;
+     border-radius: 10px;
+}
+ body::-webkit-scrollbar-corner, body ::-webkit-scrollbar-corner {
+     background-color: transparent;
+}
+ .w-input[disabled]:not(.w-input-disabled), .w-select[disabled]:not(.w-input-disabled), .w-input[readonly], .w-select[readonly], fieldset[disabled]:not(.w-input-disabled) .w-input, fieldset[disabled]:not(.w-input-disabled) .w-select {
+     background-color: transparent;
+}
+ input[disabled], input[readonly] {
+     opacity: 0.85 !important;
+}
+ [disabled], :disabled {
+     cursor: not-allowed !important;
+     opacity: 0.85 !important;
+}
+ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+}
+ .w-checkbox-input--inputType-custom.w--redirected-checked {
+     background-color: #eb6300;
+     border-top-color: hsla(0,0%,100%,.05);
+     border-bottom-color: hsla(0,0%,100%,.05);
+     border-left-color: hsla(0,0%,100%,.05);
+     border-right-color: hsla(0,0%,100%,.05);
+     background-image: url(https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg);
+     background-position: 40% 40%;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+ .w-checkbox-input--inputType-custom.w--redirected-focus {
+     box-shadow: 0px 0px 3px 1px #a7f840;
+}
+ .short {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     line-height: 32px;
+    /* fallback / max-height: 57px;
+     / fallback / -webkit-line-clamp: 2;
+     / number of lines to show */
+     -webkit-box-orient: vertical;
+}
+ .w-input[disabled]:not(.w-input-disabled), .w-select[disabled]:not(.w-input-disabled), .w-input[readonly], .w-select[readonly], fieldset[disabled]:not(.w-input-disabled) .w-input, fieldset[disabled]:not(.w-input-disabled) .w-select {
+     background-color: transparent;
+}
+ .txt-code-pix {
+     word-break: break-all;
+}
+.select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #666;
+  pointer-events: none;
+}
+.w-select {
+    appearance: none !important;
+    color: #828282 !important;
+
+ @media screen and (max-width: 991px) {
+     .intercom-lightweight-app-launcher {
+         bottom: 60px !important;
+    }
+     .button_e181 {
+         bottom: 60px !important;
+    }
+}
+ 
